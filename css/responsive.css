@@ -1,0 +1,95 @@
+/*lg*/
+@media(max-width: 1199px) {
+
+}
+
+
+/*md*/
+@media(max-width: 991px) {
+	header h1 {
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+.btn {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 45px;
+    font-size: 16px;
+    padding: 10px 53px;
+    transition: all 0.4s ease;
+}
+footer ul li a {
+    padding: 2px 10px;
+    font-size: 18px;
+}
+}
+
+
+/*sm*/
+@media(max-width: 767px) {
+header h1 {
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+}    
+
+.btn {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 45px;
+    font-size: 15px;
+    padding: 6px 36px;
+    transition: all 0.4s ease;
+}
+
+.services h2 {
+    text-transform: capitalize;
+    padding: 26px 0 9px;
+    font-size: 25px;
+}
+.services {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+.portfolio-banner h4 {
+    font-size: 14px;
+}
+.client{
+	text-align: center;
+}
+footer ul li a {
+    padding: 2px 5px;
+    font-size: 15px;
+   
+}
+}
+
+
+/*col*/
+@media(max-width: 575px) {
+header h1 {
+	font-size: 17px;
+}
+.btn {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 45px;
+    font-size: 12px;
+    padding: 2px 10px;
+    transition: all 0.4s ease;
+} 
+.heading p{
+	font-size: 17px;
+}
+.heading h1 {
+	font-size: 30px;
+}
+footer ul li a {
+    padding: 2px 5px;
+    font-size: 12px;
+}
+}
